@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" codebase="http://www.mojang.com/notch/j4k2k6/dachon4k/" href="dachon4k.jnlp">
+	<information>
+		<title>Dachon 4k</title>
+		<vendor>Markus Persson</vendor>
+		<homepage href="http://www.mojang.com/notch/j4k2k6/dachon4k/"/>
+		<description>Grabbing gems in caves from a spaceship in under 4kb!</description>
+	</information>
+
+	<resources>
+		<j2se version="1.4+ 1.4*"/>
+		<jar href="dachon4k.jar" main="true"/>
+	</resources>
+
+	<application-desc main-class="A"/>
+</jnlp>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp codebase="http://www.mojang.com/joXSI/demo" href="joXSI_demo.jnlp">
+  <information>
+    <title>joXSI demo</title>
+    <vendor>Mojang Specifications</vendor>
+    <homepage href="http://www.mojang.com/"/>
+    <description>A simple demonstration of the joXSI .XSI import and rendering library</description>
+    <offline-allowed/>
+  </information>
+
+    <resources>
+      <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+      <property name="sun.java2d.noddraw" value="true"/>
+      <jar href="joXSI_demo.jar" main="true"/>
+      <extension name="jogl" href="http://download.java.net/media/jogl/builds/archive/jsr-231-webstart-current/jogl.jnlp"/>
+    </resources>
+
+  <application-desc main-class="com.mojang.joxsi.demo.ModelDisplayer"/>
+</jnlp>
